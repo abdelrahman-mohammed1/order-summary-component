@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  
+  background-color: #dfe8ff;
+  background-repeat: no-repeat;
+}
+img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  background-color: #ffffff;
+  width: 450px;
+  height: 680px;
+  border-radius: 20px;
+}
+
+.artical {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.header {
+  padding-top: 30px;
+}
+.header h2 {
+  text-transform: capitalize;
+  font-family: "Red Hat Display", sans-serif;
+  color: #202e51;
+  font-weight: 900;
+}
+.center {
+  text-align: center;
+  padding: 17px 44px;
+}
+.center p {
+  font-family: "Red Hat Display", sans-serif;
+  color: #9da0a8;
+  font-size: 17px;
+}
+.music {
+  width: 80%;
+  height: 110px;
+  background-color: #f8f9fe;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 14px;
+}
+.text p {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+}
+.text .price {
+  color: #9da0a8;
+  font-weight: 500;
+}
+
+.text {
+  margin-right: 45px;
+  margin-left: -38px;
+  line-height: 1.6;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 35px;
+}
+
+.btn1 button {
+  border: none;
+  background-color: #382ae1;
+  color: #ebebfe;
+  padding: 16px 127px;
+  border-radius: 11px;
+  cursor: pointer;
+  font-family: "Red Hat Display", sans-serif;
+  box-shadow: 0px 10px 20px -10px #382ae1;
+  font-size: 15px;
+  font-weight: 500;
+}
+.btn2 {
+  padding-top: 25px;
+}
+.cancel {
+  border: none;
+  padding: 10px;
+  color: #9da0a8;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #ffffff;
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+}
+a {
+  text-transform: capitalize;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 600;
+}
